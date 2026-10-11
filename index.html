@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ezzra Nugroho Sugiarto</title>
+<meta name="description" content="Ezzra Nugroho Sugiarto, mahasiswa Politeknik Negeri Cilacap, peraih prestasi Olimpiade Sains Nasional bidang Informatika/Komputer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#atas">Ezzra N. S.</a>
+    <nav aria-label="Navigasi utama">
+      <a class="hide-sm" href="#profil">Profil</a>
+      <a class="hide-sm" href="#prestasi">Prestasi</a>
+      <a class="hide-sm" href="#kontak">Kontak</a>
+      <button class="icon-btn" id="theme" type="button" aria-label="Ganti tema terang atau gelap">◐</button>
+    </nav>
+  </header>
+
+  <main id="atas">
+    <div class="hero">
+      <div>
+        <h1 aria-label="Ezzra Nugroho Sugiarto">
+          <span><i>Ezzra</i></span>
+          <span><i>Nugroho</i></span>
+          <span><i>Sugiarto</i></span>
+        </h1>
+        <p class="lead">Mahasiswa Politeknik Negeri Cilacap, lulusan SMA Negeri 1 Cilacap, dan peraih prestasi Olimpiade Sains Nasional bidang Informatika/Komputer.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://id.linkedin.com/in/ezzra-nugroho-sugiarto-b8310137b" target="_blank" rel="noopener noreferrer">Buka LinkedIn</a>
+          <a class="btn ghost" href="#prestasi">Lihat prestasi</a>
+          <button class="btn ghost" id="copy" type="button">Salin tautan halaman</button>
+        </div>
+      </div>
+
+      <aside class="card" id="card" aria-label="Kartu profil">
+        <div class="mono" aria-hidden="true">ENS</div>
+        <h2>Ezzra Nugroho Sugiarto</h2>
+        <p>Mahasiswa</p>
+        <dl>
+          <div><dt>Pendidikan</dt><dd>Politeknik Negeri Cilacap</dd></div>
+          <div><dt>Sekolah sebelumnya</dt><dd>SMA Negeri 1 Cilacap</dd></div>
+          <div><dt>Bidang lomba</dt><dd>Informatika/Komputer (OSN)</dd></div>
+          <div><dt>Lokasi</dt><dd>Kode pos 50261</dd></div>
+        </dl>
+      </aside>
+    </div>
+
+    <section id="profil">
+      <h2 class="title">Profil singkat</h2>
+      <div class="facts">
+        <div class="fact">
+          <h3>Pendidikan</h3>
+          <p>Menempuh pendidikan di Politeknik Negeri Cilacap. Sebelumnya bersekolah di SMA Negeri 1 Cilacap.</p>
+        </div>
+        <div class="fact">
+          <h3>Bidang</h3>
+          <p>Mengikuti Olimpiade Sains Nasional cabang Informatika/Komputer tingkat kabupaten/kota.</p>
+        </div>
+        <div class="fact">
+          <h3>Jaringan</h3>
+          <p>Terhubung secara profesional melalui LinkedIn, dengan lokasi di area kode pos 50261.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="prestasi">
+      <h2 class="title">Prestasi</h2>
+      <ol class="timeline">
+        <li>
+          <time datetime="2025">2025</time>
+          <div class="entry">
+            <h3>Peringkat 3</h3>
+            <p>Olimpiade Sains Nasional</p>
+            <p class="detail">Perunggu, cabang Informatika/Komputer, tingkat Kabupaten/Kota Tahun 2025</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2024">2024</time>
+          <div class="entry">
+            <h3>Peringkat 9</h3>
+            <p>Olimpiade Sains Nasional</p>
+            <p class="detail">Penghargaan Khusus, cabang Informatika/Komputer, tingkat Kabupaten/Kota Tahun 2024</p>
+          </div>
+        </li>
+      </ol>
+      <p class="source">Sumber: profil prestasi Puspresnas (Pusat Prestasi Nasional) atas nama SMA Negeri 1 Cilacap.</p>
+    </section>
+
+    <section id="kontak" class="contact">
+      <h2 class="title">Terhubung dengan Ezzra</h2>
+      <p>Cara termudah untuk menghubungi Ezzra adalah lewat profil LinkedIn-nya.</p>
+      <a class="btn primary" href="https://id.linkedin.com/in/ezzra-nugroho-sugiarto-b8310137b" target="_blank" rel="noopener noreferrer">Kirim pesan di LinkedIn</a>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Ezzra Nugroho Sugiarto</footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
